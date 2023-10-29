@@ -1,0 +1,235 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.custom-gradient-button {
+  background: linear-gradient(
+    to right,
+    #2fdfec,
+    #45b0f4,
+    #6272ff,
+    #8959fd,
+    #b43dfb,
+    #f646e5
+  );
+  /* Add any other styling you need */
+}
+button:hover {
+  backdrop-filter: blur(20px); /* Adjust the blur amount as needed */
+}
+
+/* This rule applies the glow effect on hover */
+button:hover span {
+  box-shadow: 0 0 10px 5px rgba(104, 132, 253, 0.5); /* Adjust the color and size as needed */
+}
+
+.blog-title {
+  font-family: Satoshi;
+  font-size: 61px;
+  font-weight: 700;
+  line-height: 82px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 1188px;
+  height: 82px;
+  position: relative;
+}
+
+.photo {
+  display: flex;
+  width: 45px;
+  height: 45px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  border: 2px solid var(--icons-dark-light, #f2f2f2);
+
+  /* Shadows/Medium */
+  box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.15);
+  position: relative;
+  top: -15px;
+  left: 10px;
+}
+
+.cards {
+  width: 359px;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+  background: var(--neutral-100, #fff);
+
+  /* Shadows/Soft */
+  box-shadow: 0px 3px 8px 0px rgb(0, 0, 0);
+  padding-bottom: 0.7rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.cards:hover {
+  transform: scale(
+    1.09
+  ); /* Scale the element to 1.2 times its original size on hover */
+}
+
+.blog-page-title {
+  color: #7b7b7b;
+  text-align: center;
+  margin-top: 20px;
+
+  /* Desktop/BodyText/Regular/21px */
+  font-family: Noto Sans;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.image:hover {
+  transform: scale(1.2);
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+.stroke {
+  right: 512.5px;
+  bottom: 45.559px;
+  top: 66px;
+  position: absolute;
+  stroke-width: 3px;
+  stroke: var(--error-500, #d80027);
+  width: 162.5px;
+  height: 15.441px;
+}
+
+.arrow2 {
+  margin-left: 18rem;
+}
+
+.box {
+  height: 4rem;
+  width: 4rem;
+  background: red;
+  border-radius: 9px;
+}
+
+.arrow2 {
+  position: absolute;
+}
+
+.arrow {
+  position: absolute;
+  height: 3rem;
+  width: 3rem;
+  margin-left: 1rem;
+}
+
+.blogpost {
+  display: inline-block;
+  padding: 18px 72px 37px 79px;
+
+  background-color: #ffffff;
+  width: 1339px;
+  height: 859px;
+  top: 1240px;
+  margin-top: 90px;
+  margin-left: 107px;
+  margin-bottom: 5rem;
+  padding: 18px, 72px, 37px, 79px;
+}
+
+.text-main {
+  display: flex;
+  gap: 3rem;
+  margin-left: 5rem;
+  margin-top: 1em;
+}
+.image-container {
+  margin-bottom: -2.4rem;
+}
+
+.qualification {
+  margin-left: 5rem;
+  margin-top: 0.2rem;
+}
+
+.blog {
+  margin-top: 1rem;
+  display: flex;
+  width: 368px;
+  flex-direction: column;
+  align-items: flex-start;
+
+  color: #333333;
+}
+
+.blog-title2 {
+  color: var(--text-dark, #373737);
+
+  /* Desktop/Details/Bold/18px */
+  font-family: Noto Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+}
+
+.blog-parah {
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.childpill {
+  color: var(--text-medium, #7b7b7b);
+
+  /* Mobile/Details/Regular/14px */
+  font-family: Noto Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 3rem;
+
+  display: flex;
+  width: 84px;
+  height: 22px;
+  padding: 10px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+  border-radius: 50px;
+  border: 1px solid var(--neutral-600, #a4a4a4);
+}
+
+.pill {
+  display: flex;
+
+  height: 29px;
+  padding: 10px;
+
+  gap: 15px;
+}
+.line {
+  border-top: 1px solid rgba(128, 128, 128, 0.314); /* You can adjust the color as needed */
+  width: 90%;
+  height: 1rem;
+  margin-top: 1.4rem;
+  margin-left: 1rem;
+}
+
+.end-container {
+  display: flex;
+  gap: 5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.bogpostcard {
+  display: flex;
+  gap: 3rem;
+}
